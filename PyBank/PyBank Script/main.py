@@ -72,7 +72,7 @@ print("Greatest Decrease in Profits: " + greatest_loss)
 # print(sumprofit) 
 # print(totalprofitloss)
 
-
+# with open("BankOutput.txt", "w") as output:
 
 
         

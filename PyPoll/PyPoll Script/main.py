@@ -47,9 +47,9 @@ print(f"Winner: {winner}")
 print(dash)
 
 
-with open("PollOutput.txt", "w") as output:
-    for t in output:
-        output.write(tot_votes)
+# with open("PollOutput.txt", "w") as output:
+#     for t in output:
+#         output.write(tot_votes)
         # output.write("Winner: " + winner)
         # # for person, vote_count in candidate_votes.items():
         # #     output.write(f"{person}: {candidate_percent[person]} ({vote_count})"
