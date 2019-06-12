@@ -12,8 +12,6 @@ profit_loss = 0
 
 
 
-
-
 with open(budgetdata_csv, newline="", encoding="UTF8") as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=",")
 
@@ -52,46 +50,22 @@ for r in range(len(profit_loss_list)):
 
 # print(greatest_loss)
 # print(greatest_profit)
-    
 
-
-        
-
-        
-
-
-
-       
 
         # if int(greatest_profit[1]) < int(profit_loss_list[1])
 
 
-
-        
-
-       
-       
-       
-        
-
-
-
-
-    
-
         # print(date)
         # print(profit_loss)
-
-
-
-    
 
 
 print("Financial Analysis")
 print("-" * 20)
 print("Total Months:",len(date_list))
 print("Total: $", totalprofitloss)
-print("Average Change: $" + Average)
+print("Greatest Increase in Profits: " + greatest_profit)
+print("Greatest Decrease in Profits: " + greatest_loss)
+# print("Average Change: $" + Average)
 
 
 
@@ -107,16 +81,6 @@ print("Average Change: $" + Average)
 
 
     
-
-
-
-
-
-
-
-
-
-
 
 
 
